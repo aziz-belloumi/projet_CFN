@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets and caches
+dataset/
+*.cache
+*.zip
+*.tar.gz
+
+# Ultralytics / Training outputs & weights
+cat_dog_cls/
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Test images & sample outputs
+test_cat.jpg
+test_dog.jpg
+other.jpg
+*.png
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
